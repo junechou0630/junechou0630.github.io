@@ -1,0 +1,30 @@
+/*
+所有標籤基礎設定
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*基本標籤reset padding margin*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+p,
+div,
+body,
+article {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*
+常用圖片設定
+*/

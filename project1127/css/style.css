@@ -1,0 +1,92 @@
+/* Header */
+
+header {
+    height: 300px;
+    color: white;
+    background-image: url(https://source.unsplash.com/1000x200?food);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 300px;
+    text-align: center;
+}
+
+
+/*引文*/
+
+blockquote {
+    background-image: url(../images/icon-quote.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-right: 30px;
+    background-position: right bottom;
+}
+
+
+/*清單*/
+
+li {
+    list-style-type: circle;
+}
+
+
+/*縮圖區塊設定*/
+
+.thumbnail {
+    width: calc(25% - 20px);
+    float: left;
+    margin: 10px;
+}
+
+.captuon-title {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #39bf62;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+.caption-body {
+    line-height: 1.5em;
+}
+
+.caption-btn {
+    text-decoration: none;
+}
+
+.caption-btn {
+    display: block;
+    font-size: 16px;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #4dcba4;
+    border-radius: 5px;
+}
+
+.caption-btn:link {
+    color: white;
+    background-color: #4dcba4;
+}
+
+.caption-btn:visited {
+    color: white;
+    background-color: #4dcba4;
+}
+
+.caption-btn:hover {
+    color: white;
+    background-color: #77e8c5;
+}
+
+.caption-btn:active {
+    color: white;
+    background-color: #4dcba4;
+}
+
+.thumbnail-img {
+    width: 100%
+}
