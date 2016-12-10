@@ -1,0 +1,167 @@
+.container {
+    position: relative;
+    width: 284.5px;
+    height: 593.5px;
+    border: 3px solid rgb(239, 215, 183);
+    /*   background-image: url("http://cdn2.gsmarena.com/vv/pics/apple/apple-iphone-7-3.jpg");*/
+    background-position: -4.2px -1px;
+    border-radius: 45px 45px 45px 46px;
+    background-color: rgb(248, 248, 248);
+}
+
+.screen {
+    position: absolute;
+    top: 79.6px;
+    left: 24px;
+    width: 255px;
+    height: 451.5px;
+    border: 2px solid;
+    background-color: black;
+}
+
+.camera {
+    position: absolute;
+    top: 43px;
+    left: 101.5px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    /*
+    background-image: url("http://cdn2.gsmarena.com/vv/pics/apple/apple-iphone-7-3.jpg");
+    background-position: -95.1px -33px;
+*/
+    background-color: #1a1818;
+}
+
+.light {
+    position: absolute;
+    top: 26px;
+    left: 149.5px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #1a1818;
+}
+
+.voice {
+    position: absolute;
+    top: 46px;
+    left: 128.5px;
+    width: 50px;
+    height: 4.3px;
+    border-radius: 300px;
+    background-color: #1a1818;
+}
+
+.botton-out {
+    position: absolute;
+    top: 545.5px;
+    left: 130px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 0px solid #1a1818;
+    background-image: linear-gradient( 10deg, #150d01, #f8e9d2, #efe6d7, #46443f, #020202);
+    /*漸層的語法*/
+}
+
+.botton-in {
+    position: absolute;
+    top: 548px;
+    left: 132.5px;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    border: 0px solid #1a1818;
+    background-color: white;
+}
+
+.antenna-LT {
+    position: absolute;
+    top: 55px;
+    left: 8px;
+    width: 3.3px;
+    height: 10px;
+    background-color: white;
+}
+
+.antenna-RT {
+    position: absolute;
+    top: 55px;
+    left: 295.8px;
+    width: 3.3px;
+    height: 10px;
+    background-color: white;
+}
+
+.antenna-LB {
+    position: absolute;
+    top: 550px;
+    left: 8px;
+    width: 3.3px;
+    height: 10px;
+    background-color: white;
+}
+
+.antenna-RB {
+    position: absolute;
+    top: 550px;
+    left: 295.8px;
+    width: 3.3px;
+    height: 10px;
+    background-color: white;
+}
+
+.out {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 281px;
+    height: 590px;
+    border: 2px solid rgb(245, 241, 234);
+    border-radius: 42px 42px 43px 42px;
+}
+
+.left-btn1 {
+    position: absolute;
+    top: 82px;
+    left: 5px;
+    width: 3px;
+    height: 20px;
+    border: 0.5px;
+    border-radius: 4px 0px 0px 4px;
+    background-color: rgb(242, 224, 199);
+}
+
+.left-btn2 {
+    position: absolute;
+    top: 125px;
+    left: 5px;
+    width: 3px;
+    height: 35px;
+    border: 0.5px;
+    border-radius: 4px 0px 0px 4px;
+    background-color: rgb(242, 224, 199);
+}
+
+.left-btn3 {
+    position: absolute;
+    top: 170px;
+    left: 5px;
+    width: 3px;
+    height: 35px;
+    border: 0.5px;
+    border-radius: 4px 0px 0px 4px;
+    background-color: rgb(242, 224, 199);
+}
+
+.right-btn {
+    position: absolute;
+    top: 125px;
+    left: 297.5px;
+    width: 3px;
+    height: 35px;
+    border: 0.5px;
+    border-radius: 0px 4px 4px 0px;
+    background-color: rgb(242, 224, 199);
+}
