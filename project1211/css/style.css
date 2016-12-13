@@ -1,0 +1,124 @@
+* {
+    font-family: sans-serif;
+}
+
+nav{
+    color: white;
+    height: 50px;
+    width: 100%;
+    background-color: #222222;
+    position: fixed;
+    font-size: 15px;
+}
+
+nav a{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a:hover{
+    color:white;
+}
+
+.nav-big{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 70px;
+    margin-top: 100px;
+}
+
+.jumbotron h1 {
+    margin-bottom: 10px;
+    font-size: 65px;
+}
+
+.jumbotron>p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+.thumbnail .caption p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.caption h2 {
+    line-height: 50px;
+    padding-top: 10px;
+}
+
+.section-line {
+    margin-top: 10px;
+    padding-bottom: 50px;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.h1 {
+    margin-left: 16px;
+    padding-top: 50px;
+}
+
+footer {
+    padding: 55px;
+    font-size: 14px;
+}
+
+.btn-lg {
+    display: block;
+    color: white;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #3279c1;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-lg:hover {
+    background-color: #1f5b88;
+}
+
+.btn-lg:active {
+    background-color: #174569;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+.btn-white {
+    color: black;
+    border: 1px solid #c4c4c4;
+    background-color: white;
+}
+
+.btn-white:hover {
+    background-color: #dddada;
+}
+
+.btn-white:active {
+    background-color: #c7c6c6;
+}
+
+.btn-blue {
+    background-color: #3279c1;
+}
