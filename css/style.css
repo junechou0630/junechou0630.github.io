@@ -1,6 +1,6 @@
 body {
     font-family: Microsoft JhengHei, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 nav {
@@ -126,8 +126,7 @@ header:after {
 }
 
 .jumbotron p {
-    line-height: 24px;
-    font-size: 18px;
+    line-height: 30px;
     font-weight: 200;
 }
 
@@ -162,7 +161,8 @@ header:after {
 
 .caption>p {
     margin-top: 20px;
-    line-height: 24px;
+    line-height: 35px;
+    font-size: 22px;
 }
 
 .caption>img {
