@@ -1,3 +1,18 @@
+.home-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+}
+
+.home-btn>img {
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid;
+    padding: 0 0.5px 1px 0.5px;
+}
+
+
 /* Header */
 
 header {

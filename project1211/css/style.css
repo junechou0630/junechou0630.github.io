@@ -2,7 +2,25 @@
     font-family: sans-serif;
 }
 
-nav{
+.home-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+}
+
+.home-btn>img {
+    width: 32px;
+    border-radius: 50%;
+    border: 2px solid;
+    padding: 0 0.5px 1px 0.5px;
+}
+
+.home-btn>img:hover {
+    background-color: #f4f4f4;
+}
+
+nav {
     color: white;
     height: 50px;
     width: 100%;
@@ -11,21 +29,21 @@ nav{
     font-size: 15px;
 }
 
-nav a{
+nav a {
     color: #aaaaaa;
     text-decoration: none;
 }
 
-nav li{
+nav li {
     display: inline-block;
     margin-right: 15px;
 }
 
-nav a:hover{
-    color:white;
+nav a:hover {
+    color: white;
 }
 
-.nav-big{
+.nav-big {
     font-size: 18px;
     font-weight: bold;
 }

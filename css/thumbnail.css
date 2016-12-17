@@ -1,0 +1,20 @@
+.thumbnail {
+    /*
+    border: 1px solid #ddd;
+    
+    padding: 5px;
+    border-radius: 5px;
+    */
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail .caption h3 {
+    font-size: 1.25em;
+}
+
+.thumbnail .caption p {
+    font-size: 1em;
+}

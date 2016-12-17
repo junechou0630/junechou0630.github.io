@@ -1,3 +1,21 @@
+.home-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+}
+
+.home-btn>img {
+    width: 28px;
+    border-radius: 50%;
+    border: 2px solid;
+    padding: 0 0.5px 1px 0.5px;
+}
+
+.home-btn>img:hover {
+    background-color: #f4f4f4;
+}
+
 .container {
     position: relative;
     width: 284.5px;
