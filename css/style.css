@@ -115,7 +115,7 @@ header:after {
     text-align: center;
     margin: 0px auto;
     font-size: 58px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .jumbotron h1:after {
@@ -127,7 +127,7 @@ header:after {
 
 .jumbotron p {
     line-height: 30px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .btn_header {
@@ -161,8 +161,7 @@ header:after {
 
 .caption>p {
     margin-top: 20px;
-    line-height: 35px;
-    font-size: 22px;
+    line-height: 30px;
 }
 
 .caption>img {
