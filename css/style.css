@@ -155,14 +155,13 @@ header:after {
 }
 
 .caption>h2 {
-    margin-top: 40px;
     font-size: 28px;
 }
 
 .caption>p {
-    margin-top: 20px;
     line-height: 28px;
     font-size: 18px;
+    margin-top: 20px;
 }
 
 .caption>img {
@@ -176,7 +175,7 @@ header:after {
 }
 
 .sectioner {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .thumbnail {
