@@ -44,46 +44,69 @@
     .container {
         width: 80%;
     }
+    .jumbotron {
+        width: 80%;
+    }
     .vh {
         padding: 45px 10px 45px 10px;
     }
-	
-	.jumbotron>h1 {
-		font-size: 32px;
-		margin-bottom: 17px;
-	}
-	
-	.jumbotron>p {
-		line-height: 30px;
-		margin-top: 15px;
-	}
-
-	.hr-header {
-		width: 120px;
-	}
-	
-	
+    .jumbotron>h1 {
+        font-size: 32px;
+        margin-bottom: 17px;
+    }
+    .jumbotron>p {
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .hr-header {
+        width: 120px;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .container {
         width: 100%;
     }
+    .jumbotron {
+        width: 85%;
+    }
+    .white-box .green {
+        width: 100%;
+    }
     .vh {
         padding: 45px 10px 45px 10px;
     }
-	
-	.jumbotron>h1 {
-		font-size: 32px;
-		margin-bottom: 15px;
-	}
-	
-	.jumbotron>p {
-    line-height: 30px;
-	margin-top: 15px;
-	}
-	
-	.hr-header {
-    width: 120px;
-	}
+    .jumbotron>h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .jumbotron>p {
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .hr-header {
+        width: 120px;
+    }
+    .vh h2 {
+        font-size: 23px;
+    }
+    .hr-section {
+        margin: 20px auto;
+    }
+    .vh>.caption {
+        margin: auto 15px;
+    }
+    .td {
+        float: none;
+        width: 100%;
+    }
+    .right-line {
+        border-right: 0px solid #ddd;
+    }
+    .table {
+        margin-top: 10px;
+    }
+    input[type=text] {
+        width: 100%;
+    }
 }

@@ -1,9 +1,17 @@
 body {
+    /*
     background-image: url(https://source.unsplash.com/1200x1200?nature);
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+*/
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
+}
+
+.background {
+    position: fixed;
+    z-index: -999999999;
 }
 
 header {
@@ -17,7 +25,7 @@ header {
 }
 
 .jumbotron {
-	width:80%;
+    width: 100%;
     margin: 0px auto;
 }
 
@@ -32,8 +40,7 @@ header {
 
 .jumbotron>p {
     font-weight: bold;
-	margin-top: 30px;
-    
+    margin-top: 30px;
 }
 
 .jumbotron>p>a {
@@ -58,9 +65,9 @@ header {
 
 .hr-section {
     padding: 0px;
-    margin: auto;
+    margin: 30px auto;
     border: 0;
-    height: 2px;
+    height: 1.8px;
     width: 100px;
     background-color: #e0e0e0;
 }
@@ -118,11 +125,9 @@ header {
     font-size: 28px;
     font-weight: 800;
     color: #626262;
-    margin-bottom: 25px;
 }
 
 .vh p {
-    margin-top: 30px;
     color: #626262;
     letter-spacing: 0px;
     line-height: 30px;
@@ -187,7 +192,7 @@ textarea {
     font-size: 16px;
     width: 100%;
     margin-bottom: 20px;
-    background-color: #ddd;
+    background-color: #e3e3e3;
     border: 3px solid;
     border-color: transparent;
     padding: 10px;
@@ -199,7 +204,7 @@ input[type=text] {
     width: calc(50% - 11px);
     height: 45px;
     margin-bottom: 20px;
-    background-color: #ddd;
+    background-color: #e3e3e3;
     border: 3px solid;
     border-color: transparent;
     padding: 10px;
@@ -207,7 +212,7 @@ input[type=text] {
 
 input[type=text]:focus {
     outline: none;
-    border: 3px solid #97d6b7;
+    border: 3px solid #8bd1ae;
 }
 
 input[name=name] {
@@ -216,7 +221,8 @@ input[name=name] {
 
 textarea:focus {
     outline: none;
-    border: 3px solid #97d6b7;
+    border: 3px solid #8bd1ae;
+    z-index: 999999;
 }
 
 footer {
