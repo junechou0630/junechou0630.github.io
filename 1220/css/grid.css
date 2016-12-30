@@ -47,6 +47,22 @@
     .vh {
         padding: 45px 10px 45px 10px;
     }
+	
+	.jumbotron>h1 {
+		font-size: 32px;
+		margin-bottom: 17px;
+	}
+	
+	.jumbotron>p {
+		line-height: 30px;
+		margin-top: 15px;
+	}
+
+	.hr-header {
+		width: 120px;
+	}
+	
+	
 }
 
 @media screen and (max-width: 480px) {
@@ -56,7 +72,18 @@
     .vh {
         padding: 45px 10px 45px 10px;
     }
-    .no {
-        display: none;
-    }
+	
+	.jumbotron>h1 {
+		font-size: 32px;
+		margin-bottom: 15px;
+	}
+	
+	.jumbotron>p {
+    line-height: 30px;
+	margin-top: 15px;
+	}
+	
+	.hr-header {
+    width: 120px;
+	}
 }

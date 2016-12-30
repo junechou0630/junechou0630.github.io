@@ -17,7 +17,8 @@ header {
 }
 
 .jumbotron {
-    margin: 0 auto;
+	width:80%;
+    margin: 0px auto;
 }
 
 .jumbotron>h1 {
@@ -31,7 +32,8 @@ header {
 
 .jumbotron>p {
     font-weight: bold;
-    margin-top: 30px;
+	margin-top: 30px;
+    
 }
 
 .jumbotron>p>a {
