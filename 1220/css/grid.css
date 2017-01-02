@@ -49,6 +49,7 @@
     }
     .vh {
         padding: 45px 10px 45px 10px;
+        min-height: 100%;
     }
     .jumbotron>h1 {
         font-size: 32px;
@@ -60,6 +61,12 @@
     }
     .hr-header {
         width: 120px;
+    }
+    .down {
+        display: none;
+    }
+    .white-box>.btn {
+        display: none;
     }
 }
 
@@ -75,6 +82,7 @@
     }
     .vh {
         padding: 45px 10px 45px 10px;
+        min-height: 100%;
     }
     .jumbotron>h1 {
         font-size: 32px;
@@ -103,10 +111,19 @@
     .right-line {
         border-right: 0px solid #ddd;
     }
+    .top-line {
+        border-top: 2px solid #ddd;
+    }
     .table {
         margin-top: 10px;
     }
     input[type=text] {
         width: 100%;
+    }
+    .down {
+        display: none;
+    }
+    .white-box>.btn {
+        display: none;
     }
 }

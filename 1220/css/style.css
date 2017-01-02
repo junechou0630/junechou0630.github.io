@@ -72,6 +72,10 @@ header {
     background-color: #e0e0e0;
 }
 
+.container:first-child {
+    background-color: black;
+}
+
 .white-box {
     background-color: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid #ddd;
@@ -135,6 +139,7 @@ header {
 
 .down {
     margin-top: 20px;
+    display: block;
 }
 
 .vh a>img {
@@ -156,7 +161,7 @@ header {
 }
 
 .top-line {
-    border-top: 2px solid #ddd;
+    border-top: 0px solid #ddd;
 }
 
 .right-line {
